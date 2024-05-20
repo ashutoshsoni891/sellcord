@@ -17,10 +17,6 @@ DISPUTE_TRACKING_CHOICES = (
 class BaseModel(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        abstract = True
-
 class Customer(BaseModel):
     customer_id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=50, unique=True)

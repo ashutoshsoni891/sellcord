@@ -2,8 +2,9 @@ asgiref==3.8.1
 black==24.3.0
 click==8.1.7
 Django==5.0.4
-djangorestframework
-djangorestframework-jwt-5
+djangorestframework==3.15.1
+djangorestframework-jwt-5==1.13.0
+djangorestframework-simplejwt==5.3.1
 jedi==0.19.1
 mypy-extensions==1.0.0
 packaging==24.0
@@ -13,6 +14,8 @@ platformdirs==4.2.0
 psycopg2-binary==2.9.9
 pudb==2024.1
 Pygments==2.17.2
+PyJWT==2.8.0
+rest-framework-simplejwt==0.0.2
 sqlparse==0.4.4
 tomli==2.0.1
 typing_extensions==4.11.0
